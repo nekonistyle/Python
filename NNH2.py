@@ -194,6 +194,8 @@ npb3 = np.array([[d]])
 print('b3 =')
 print(npb3)
 
+print()
+
 
 # check
 def activation(X):
@@ -205,7 +207,6 @@ def MP1(W,b,x):
 def MP(x):
     return MP1(npW3,npb3,activation(MP1(npW2,npb2,activation(MP1(npW1,npb1,np.array([[x]]))))))
 
-print()
 result = [MP(x)[0][0] for x in idata]
 print('MP(x) =', result)
 print('output=', np.array(odata))
