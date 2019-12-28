@@ -43,6 +43,7 @@ prod = math.prod
 
 # make parameters
 print('parameters')
+print()
 
 W1 = list([1 for x in range(a1)])
 
@@ -161,7 +162,6 @@ def Tnp(s):
 
 
 # print parameters
-print()
 print('1st layer')
 
 npW1 = Tnp(W1)
