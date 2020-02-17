@@ -52,7 +52,7 @@ def make_parameters(idata,odata):
             else:
                 s = sorted(data)
                 min = reduce(lambda dm, x: (dm[0] if x == dm[1] else min([dm[0],x - dm[1]]),x),s[:1],(1,s[0]))
-                max = 0 if len(s) < 2 else s[-1] - s[0]
+                max = s[-1] - s[0]
                 return (min[0],max)
 
         def f(wS,s):
