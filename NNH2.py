@@ -27,7 +27,7 @@ odataRange = 100
 
 def randomidata(idataRange):
     def mkdata(n,k):
-        if k == 0:
+        if n == 0:
             return []
         else:
             return [*mkdata(n-1,k // idataRange), k % idataRange]
