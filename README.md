@@ -9,5 +9,7 @@ https://ieeexplore.ieee.org/document/8951658
 We strongly recommend to use "Fraction" as a division operator.
 If we use "/", this program sometimes returns parameters with large error because of divisions by very large numbers.
 
+Document in Japanese.
+https://qiita.com/nekonibox/items/00426281e45714a48f23
 
 All code are written by Kenta Inoue.
